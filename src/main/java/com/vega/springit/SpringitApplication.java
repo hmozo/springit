@@ -35,8 +35,8 @@ public class SpringitApplication {
 			log.error("ERROR log: CommandLineRunner runner()");
 			log.warn("WARN log: CommandLineRunner runner()");
 			log.info("INFO log: CommandLineRunner runner()");
-			//log.debug("DEBUG log: CommandLineRunner runner()");
-			//log.trace("TRACE log: CommandLineRunner runner()");
+			log.debug("DEBUG log: CommandLineRunner runner()");
+			log.trace("TRACE log: CommandLineRunner runner()");
 		};
 	}
 
