@@ -5,5 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import com.vega.springit.domain.Link;
 
 public interface LinkRepository extends JpaRepository<Link, Long>{
-
+	
+	Link findByTitle(String title);
 }
